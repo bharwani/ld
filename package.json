@@ -1,0 +1,22 @@
+{
+  "name": "ld",
+  "version": "1.0.0",
+  "description": "**Built using Client-side NodeJS SDK**<br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharwani/ld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharwani/ld/issues"
+  },
+  "homepage": "https://github.com/bharwani/ld#readme",
+  "dependencies": {
+    "launchdarkly-node-client-sdk": "^2.0.2"
+  }
+}
