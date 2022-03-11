@@ -1,7 +1,7 @@
 # LaunchDarkly Testing
 
 **Built using Client-side NodeJS SDK**<br>
-Assume node is already installed. Otherwise install node. 
+Assume Node.js is already installed. Otherwise install [Node.js](https://nodejs.org). 
 ## Build instructions
 
 1. Install the LaunchDarkly Client-Side NodeJS SDK by running `npm init` into a directory.
@@ -19,4 +19,17 @@ Assume node is already installed. Otherwise install node.
   node index.js 
 ```
 
-### Thank you
+##Features
+* 2 users; defined by email
+* Flags targeted to user
+* AllFlagsResults() used 
+* Take action on 'true' flags
+
+## Time spent
+* 1hr: Documentation & tutorial review
+* 1hr: Building, testing, experimentation
+* 15mins: Documentation, packaging
+
+Flags in action on [Glitch](https://glitch.com/edit/#!/launchdarkly-silicon-hygienic)
+
+#### Thank you!
