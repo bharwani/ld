@@ -45,7 +45,7 @@ ldClient
     // Can't do this as allFlagsResult is a Map
     //showMessage("Flags" + allFlagsResult.entries());
 
-
+    //Not the documented way to use flags; was trying a 'different' approach 
     showMessage("Now take action on  'true' flags for this user");
     for (const [key, value] of Object.entries(allFlagsResult)) {
        if (value == true){
