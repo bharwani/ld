@@ -19,7 +19,7 @@ Assume Node.js is already installed. Otherwise install [Node.js](https://nodejs.
   node index.js 
 ```
 
-##Features
+## Features
 * 2 users; defined by email
 * Flags targeted to user
 * AllFlagsResults() used 
