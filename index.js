@@ -13,12 +13,12 @@ const config = {
 // Set up user properties. 2 users so I can test Targeted flags
 // var user = {
 //   key: "example-user-key",
-//   email: "sed@bed.org",
+//   email: "sed@idontexist.org.com",
 // };
 
 var user = {
   key: "examplef-user-key",
-  email: "sed2@bed.org",
+  email: "sed2@idontexist.org.com",
 };
 
 // Create a single instance of the LaunchDarkly client

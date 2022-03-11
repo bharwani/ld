@@ -19,6 +19,21 @@ Assume Node.js is already installed. Otherwise install [Node.js](https://nodejs.
   node index.js 
 ```
 
+5. Add any flags in LD's interface. Flags can target users. Here are the details of users in code:
+```js
+//   key: "example-user-key",
+//   email: "sed@idontexist.org.com",
+// };
+
+var user = {
+  key: "examplef-user-key",
+  email: "sed2@idontexist.org.com",
+};
+```
+Adapt to suit your targets. Uncomment the user not being used.
+
+6. Profit! 
+
 ## Features
 * 2 users; defined by email
 * Flags targeted to user
