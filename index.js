@@ -22,7 +22,7 @@ var user = {
 };
 
 // Create a single instance of the LaunchDarkly client
-const ldClient = LaunchDarkly.initialize("<CLIENT-ID>", user);
+const ldClient = LaunchDarkly.initialize("", user);
 
 // Function to log messages to console
 function showMessage(s) {
